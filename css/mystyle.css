@@ -54,9 +54,15 @@ body{
   color: white;
 }
 
+.topnav-left {
+  float: left;
+  padding-left: 670px;
+}
+
 /* Right-aligned section inside the top navigation */
 .topnav-right {
   float: right;
+  padding-right: 670px;
 }
 
 .topnav-centered a {
@@ -65,4 +71,29 @@ body{
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  }
+
+/*Homepage picture and text*/
+  .container{
+
+  	width: 50%;
+  	padding-top: 100px;
+  	padding-left: 300px;
+  	padding-right: 30px;
+
+  
+  }
+
+  .photo{
+
+  	float: left;
+  	width: 40%;
+
+  }
+
+  .content{
+
+  	float: right;
+  	width: 60%;
+ 	padding-right: 30px;
   }
