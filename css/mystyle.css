@@ -6,7 +6,13 @@ body{
 
 }
 
+.main{
 
+	width:1230px;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+}
 /*The css code of the header from w3schools.com*/
 /*source URL: www.w3schools.com/howto/tryit.asp?filename=tryhow_css_style_header */
 /*The header implmented as a class that will called in the HTML*/
@@ -25,53 +31,7 @@ body{
 /*Source URL: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_centered*/
 /*Source URL: https://www.w3schools.com/css/css_padding.asp*/
 
-/* Background color for nav bar */
-.topnav {
-	position: relative;
-    background-color: #333;
-    overflow: hidden;
-}
 
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: #4CAF50;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-.topnav-left {
-  float: left;
-  padding-left: 670px;
-}
-
-/* Right-aligned section inside the top navigation */
-.topnav-right {
-  float: right;
-  padding-right: 670px;
-}
-
-.topnav-centered a {
-  float: none;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  }
 
 /*Homepage picture and text*/
   .container{
@@ -87,13 +47,16 @@ body{
   .photo{
 
   	float: left;
-  	width: 40%;
+  	width: 60%;
 
   }
 
   .content{
 
   	float: right;
-  	width: 60%;
- 	padding-right: 30px;
+  	width: 40%;
+ 	padding-right: 30;
   }
+
+
+
