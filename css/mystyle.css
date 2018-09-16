@@ -1,3 +1,6 @@
+
+* {box-sizing: border-box}
+
 body{
 
 	background-color: #ffffff;
@@ -6,57 +9,89 @@ body{
 
 }
 
-.main{
 
-	width:1230px;
-	height: 500px;
-	margin-right: auto;
-	margin-left: auto;
-}
 /*The css code of the header from w3schools.com*/
 /*source URL: www.w3schools.com/howto/tryit.asp?filename=tryhow_css_style_header */
+/*Source URL: https://www.w3schools.com/howto/howto_css_responsive_header.asp*/
 /*The header implmented as a class that will called in the HTML*/
 
 .header{
 
-	padding: 60px;
-	text-align: center;
+	padding: 20px 10px;
 	background: #ffad33;
-	color:white;
-	font-size: 30px;
+	overflow: hidden;
+	
+	
+}
+
+.header a{
+
+	float: left;
+	color: white;
+	text-align: center;
+	padding: 12px;
+	text-decoration: none;
+	font-size: 18px;
+	line-height: 25px;
+	border-radius: 4px;
+}
+
+@media screen and (max-width: 500px){
+
+	.header a{
+		float: none;
+		display: block;
+		text-align: left;
+	}
+
 }
 
 /*The nav css style codes are modified from the w3schools.com */
-/*Source URL: https://www.w3schools.com/howto/howto_css_topnav_right.asp*/ 
-/*Source URL: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav_centered*/
-/*Source URL: https://www.w3schools.com/css/css_padding.asp*/
+/*Source URL: https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp*/ 
+
+.navbar{
+	
+	width: 100%;
+	background-color:#333;
+	overflow: hidden;
+}
+/*Nav links*/
+.navbar a{
+	float: left;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 20%; /*The first assignment requires 5 pages then each link of page is 20%*/
+	text-align: center;
+}
+
+/*Backgroud color when move the mouse over the navbar*/
+.navbar a:hover{
+	background-color: #000;
+}
+
+.navbar a.active{
+
+	background-color: #4CAF50;
+}
+
+@media screen and (max-width: 500px){
+	.navbar a{
+		float: none;
+		display: block;
+		width: 100%;
+		text-align: left; /*Text left align when user using a small screen*/
+	}
+}
 
 
+.footer{
 
-/*Homepage picture and text*/
-  .container{
+	float: center;
 
-  	width: 50%;
-  	padding-top: 100px;
-  	padding-left: 300px;
-  	padding-right: 30px;
+}
 
-  
-  }
-
-  .photo{
-
-  	float: left;
-  	width: 60%;
-
-  }
-
-  .content{
-
-  	float: right;
-  	width: 40%;
- 	padding-right: 30;
-  }
-
+/*Homepage content*/
 
 
