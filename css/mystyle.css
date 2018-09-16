@@ -9,7 +9,9 @@ body{
 
 }
 
-
+/*******************************************************
+*********************   Header   ***********************
+********************************************************/
 /*The css code of the header from w3schools.com*/
 /*source URL: www.w3schools.com/howto/tryit.asp?filename=tryhow_css_style_header */
 /*Source URL: https://www.w3schools.com/howto/howto_css_responsive_header.asp*/
@@ -46,6 +48,9 @@ body{
 
 }
 
+/*******************************************************
+*********************   Nav Bar  ***********************
+********************************************************/
 /*The nav css style codes are modified from the w3schools.com */
 /*Source URL: https://www.w3schools.com/howto/howto_css_topnav_equal_width.asp*/ 
 
@@ -86,6 +91,9 @@ body{
 }
 
 
+/*******************************************************
+*********************   Footer   ***********************
+********************************************************/
 .footer{
 
 	float: center;
@@ -156,4 +164,47 @@ div.desc {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/*SVG*/
+#square {
+	
+	fill: lime;
+	stroke: purple;
+	stroke-width:1;
+}
+
+/*******************************************************
+***************Table Header for Plan page***************
+********************************************************/
+
+/*Code modified from W3school*/
+/*Source Code URL: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_table_id1*/
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+.tableHeader {
+    width: 100%;    
+    background-color: #f1f1c1;
+}
+
+/*******************************************************
+***********************"About"page**********************
+********************************************************/
+
+
+.inline-border{
+
+	margin: 0px auto;
+	width: 400px;
+	height: 200px;
+	background-color: white;
+	text-align: left;
+	font-size: 16px;
+	color: black;
+	line-height: 120%;
+	letter-spacing: 1px;
+
 }
