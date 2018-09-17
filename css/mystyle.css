@@ -167,11 +167,23 @@ div.desc {
 }
 
 /*SVG*/
-#square {
+.square {
 	
-	fill: lime;
+	fill: #ff9933;
 	stroke: purple;
 	stroke-width:1;
+	/*height: 69px;
+	width: 336px;
+	*/
+}
+
+.svgbox{
+	
+	width: 350px;
+    height: 70px;
+    padding: 10px;
+    border: 1px solid #aaaaaa;
+
 }
 
 /*******************************************************

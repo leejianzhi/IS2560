@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<link rel="stylesheet" type="text/css" href="css\mystyle.css">
+		<link type="text/javascript" href="scripts\myscript.js">
 		<title>SVG</title>
 	</head>
 
@@ -25,19 +26,23 @@
 	<a class="active"  href="svg.html">SVG</a>
 	<a href="plan.html">Weekly Plan</a>
 	<a href="about.html">About</a>
+</div><br><br>
 
 <!--SVG elements-->
-</div>
-<svg align="center" id="square" height="250" width="500" draggable="true" ondragstart="drag(event)">
-  <polygon points="10,10 200,10 200,200 10,200"/> Sorry, your browser does not support inline SVG.
+<div class="svgbox" ondrop="drop(event)" ondragover="allowDrop(event)"></div><br>
 
-  
+
+<svg xmlns="http://www.w3.org/2000/svg" class="square">
+  <polygon points="10,50 100,50 100,100 10,100" id="drag1" draggable="true" ondragstart="drag(event)" width="336" height="69"/> Sorry, your browser does not support inline SVG.
 </svg>
 
 
 
+
 <!--Footer-->
-<div>
+<br>
+<br>
+<div> 
 <footer class="footer">
   <p align="center">Copyright@2018 Jianzhi Li</p>
 </footer>
