@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<link rel="stylesheet" type="text/css" href="css\mystyle.css">
-		<link type="text/javascript" href="scripts\myscript.js">
+		<link type="text/javascript" href="scripts/myscript.js">
 		<title>SVG</title>
 	</head>
 
@@ -29,11 +29,12 @@
 </div><br><br>
 
 <!--SVG elements-->
-<div class="svgbox" ondrop="drop(event)" ondragover="allowDrop(event)"></div><br>
+<!--Code Source URL: https://www.w3schools.com/html/tryit.asp?filename=tryhtml5_draganddrop-->
+<div id="svgbox" ondrop="drop(event)" ondragover="allowDrop(event)"></div><br>
+<img id="drag1" src="img/dragme.gif" draggable="true" ondragstart="drag(event)" width="258" height="59">
 
-
-<svg xmlns="http://www.w3.org/2000/svg" class="square">
-  <polygon points="10,50 100,50 100,100 10,100" id="drag1" draggable="true" ondragstart="drag(event)" width="336" height="69"/> Sorry, your browser does not support inline SVG.
+<svg class="square">
+  <polygon points="10,50 100,50 100,100 10,100"/> Sorry, your browser does not support inline SVG.
 </svg>
 
 

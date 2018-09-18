@@ -9,6 +9,7 @@ body{
 
 }
 
+
 /*******************************************************
 *********************   Header   ***********************
 ********************************************************/
@@ -172,19 +173,26 @@ div.desc {
 	fill: #ff9933;
 	stroke: purple;
 	stroke-width:1;
+	display: block;
+	margin: auto;
+
 	/*height: 69px;
 	width: 336px;
 	*/
 }
 
-.svgbox{
+#svgbox{
 	
-	width: 350px;
-    height: 70px;
+	width: 600px;
+    height: 100px;
     padding: 10px;
     border: 1px solid #aaaaaa;
+    display: block;
+	margin: auto;
 
 }
+
+
 
 /*******************************************************
 ***************Table Header for Plan page***************
