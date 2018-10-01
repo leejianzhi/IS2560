@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<link rel="stylesheet" type="text/css" href="css\mystyle.css">
-		<link type="text/javascript" href="scripts/myscript.js">
+		<script type="text/javascript" src="scripts/myscript.js"></script>
 		<title>Smart Document</title>
 	</head>
 
@@ -48,10 +48,10 @@
 <div>
 	<form id="form1"> 
         <ul style="float:left; margin:30px 30px;list-style:none;">
-            <li>Date：<input type="text" id="date_input"></li>
-            <li>To-Do：<input type="text" id="todo_input"> </li>
-            <li>Important：<input type="text" id="important_input"></li>
-            <li>Add：<input type="button" value="Add" id="submit"></li>
+            <li>Date:<input type="text" id="date_input"></li>
+            <li>To-Do:<input type="text" id="todo_input"> </li>
+            <li>Important:<input type="text" id="important_input"></li>
+            <li><input type = "button" value = "Add" id = "submit" onclick="fill_form()"></li>
         </ul> 
     </form> 
     <table border="1" id="border" style="margin:30px;border:solid 1px gray;width:400px;text-align: center;"> 
@@ -63,9 +63,9 @@
         </colgroup>
         <tr> 
             <th><input type="checkbox" id="checkbox"></th>
-            <th id="name">Date</th> 
-            <th id="email">To-Do</th> 
-            <th id="address">Important</th> 
+            <th id="date">Date</th> 
+            <th id="todo">To-Do</th> 
+            <th id="important">Important</th> 
         </tr> 
         <tr>
             <td><input type="checkbox"></td>
@@ -77,6 +77,9 @@
 </div>
 
 
+
+<br>
+<br>
 <div> 
 <footer class="footer">
   <p align="center">Copyright@2018 Jianzhi Li</p>

@@ -1,10 +1,12 @@
-function select_date(){
 
-       document.getElementById("submit").onclick=function(){  
+
+    function fill_form(){  
     //get imput from user 
-    var name=document.getElementById("date_input"); 
-    var email=document.getElementById("todo_input"); 
-    var addresss=document.getElementById("important_input"); 
+
+    document.getElementById("submit").value; 
+    var date=document.getElementById("date_input"); 
+    var todo=document.getElementById("todo_input"); 
+    var important=document.getElementById("important_input"); 
     //insert table nodes
     var trNode=document.createElement("tr"); 
     var checkboxNode=document.createElement("td");
@@ -22,11 +24,10 @@ function select_date(){
     checkboxText.setAttribute("type","checkbox");
     var datetxtNode=document.createTextNode(date.value); 
     var todotxtNode=document.createTextNode(todo.value); 
-    var improtanttxtNode=document.createTextNode(important.value); 
+    var importanttxtNode=document.createTextNode(important.value); 
     checkboxNode.appendChild(checkboxText);
 	dateNode.appendChild(datetxtNode); 
     todoNode.appendChild(todotxtNode); 
     improtantNode.appendChild(importanttxtNode); 
     }  
 
-}
