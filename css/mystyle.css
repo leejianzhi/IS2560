@@ -68,7 +68,7 @@ body{
 	color: white;
 	text-decoration: none;
 	font-size: 17px;
-	width: 20%; /*The first assignment requires 5 pages then each link of page is 20%*/
+	width: 16.66%; /*The first assignment requires 5 pages then each link of page is 20%*/
 	text-align: center;
 }
 
@@ -181,7 +181,7 @@ div.desc {
 	*/
 }
 
-#svgbox{
+.svgbox{
 	
 	width: 600px;
     height: 100px;
