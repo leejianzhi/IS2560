@@ -6,6 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<head>
 		<link rel="stylesheet" type="text/css" href="css\mystyle.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<script type="text/javascript" src="scripts/myscript.js"></script>
 		<title>Smart Document</title>
 	</head>
@@ -41,17 +42,17 @@
 
 
 <!--Code Modified from https://www.cnblogs.com/xiaoluoli/p/5857446.html-->
-<div>
-	<form id="form1"> 
-        <ul style="float:left; margin:30px 30px;list-style:none;">
-            <li>Date:<input type="text" id="date_input"></li>
-            <li>To-Do:<input type="text" id="todo_input"> </li>
-            <li>Important:<input type="text" id="important_input"></li>
-            <li><input type = "button" value = "Add" id = "submit" onclick="fill_form()"></li>
-            <li><button onclick="clone_table()">Clone Table</button></li>
+<div class="container">
+    <form id="form1"> 
+        <ul>
+            Date:<input class = "input" type="text" id="date_input">
+            To-Do:<input class = "input" type="text" id="todo_input">
+            Important:<input class = "input" type="text" id="important_input">
+        
+            <input type = "button"  class="btn btn-success center-block" value = "Add" id = "submit" onclick="fill_form()">
         </ul> 
     </form> 
-    <table> 
+    <table  class="container" class="table" border="1" id="border"> 
         <colgroup>
             <col width="50"/>
             <col width="100"/>
@@ -71,15 +72,19 @@
             <td>Due</td>
         </tr>
     </table> 
+
+<br>
+<br>
+<br>
+</div>
+<div class = "container">
+    <button align="center" class="btn btn-success center-block" onclick="clone_table()">Clone Table</button>
 </div>
 
 
-
-<br>
-<br>
-<div> 
-<footer class="footer">
-  <p align="center">Copyright@2018 Jianzhi Li</p>
+<div>
+<footer class="container-fluid text-center">
+  <p>Copyright@2018 Jianzhi Li</p>
 </footer>
 </div>
 
