@@ -30,4 +30,12 @@
     todoNode.appendChild(todotxtNode); 
     improtantNode.appendChild(importanttxtNode); 
     }  
+//Code modified from : https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_node_clonenode2
+    function clone_table(){
 
+    var elmnt = document.getElementsByTagName("TABLE")[0];
+    var cln = elmnt.cloneNode(true);
+    document.body.appendChild(cln);
+
+
+    }
